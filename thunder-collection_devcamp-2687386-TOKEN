@@ -1,7 +1,7 @@
 {
     "client": "Thunder Client",
     "collectionName": "devcamp-2687386",
-    "dateExported": "2023-11-24T23:24:23.096Z",
+    "dateExported": "2023-12-01T20:28:24.661Z",
     "version": "1.1",
     "folders": [
         {
@@ -92,7 +92,7 @@
             "method": "POST",
             "sortNum": 30000,
             "created": "2023-11-17T19:49:55.646Z",
-            "modified": "2023-11-24T23:22:02.923Z",
+            "modified": "2023-12-01T20:25:17.014Z",
             "headers": [
                 {
                     "name": "Content-Type",
@@ -100,18 +100,14 @@
                 },
                 {
                     "name": "Authorization",
-                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjEyMjVkNTdlODY5MTk5NzQxYzA2NiIsImVtYWlsIjoic2ViYXNAZ21haWwuY29tIiwiaWF0IjoxNzAwODY0NjQ2LCJleHAiOjE3MDM0NTY2NDZ9.3UZ9cTuO-cq7H_OkdiUTRpDB4Id41jZlNF_mcdym_rw"
+                    "value": "Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NmEzZGUyZDBiYTZmNjlkYzljYjcyMSIsImVtYWlsIjoic2ViYXMxQGdtYWlsLmNvbSIsImlhdCI6MTcwMTQ2MjMwNCwiZXhwIjoxNzA0MDU0MzA0fQ.f8vd9s8C6wN8leHHNFnzbUlbOTgcKhA0mLruukPaNl4"
                 }
             ],
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\" : \"Java bootcamp #2\",\n  \"phone\" : 52145324,\n  \"address\" : \"Sena Calle 52\",\n  \"topics\" : [\n    \"AI\"\n    ],\n  \"createdAt\" : \"2023-11-03\" \n}",
+                "raw": "{\n  \"name\" : \"Java bootcamp #6\",\n  \"phone\" : 52145324,\n  \"address\" : \"Sena Calle 52\",\n  \"topics\" : [\n    \"AI\"\n    ],\n  \"createdAt\" : \"2023-11-03\" \n}",
                 "form": []
-            },
-            "auth": {
-                "type": "bearer",
-                "bearer": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY1NjEyMjVkNTdlODY5MTk5NzQxYzA2NiIsImVtYWlsIjoic2ViYXNAZ21haWwuY29tIiwiaWF0IjoxNzAwODY0NjQ2LCJleHAiOjE3MDM0NTY2NDZ9.3UZ9cTuO-cq7H_OkdiUTRpDB4Id41jZlNF_mcdym_rw"
             },
             "tests": []
         },
@@ -134,11 +130,11 @@
             "colId": "509941ae-8a98-401d-8ee2-a599204e6c96",
             "containerId": "496f288b-035c-4066-9c39-a8c846f3b658",
             "name": "traer todos los usuarios",
-            "url": "http://127.0.0.1:5000/users",
+            "url": "http://127.0.0.1:5000/api/v1/devcamp/auth/",
             "method": "GET",
             "sortNum": 30000,
             "created": "2023-11-17T19:49:55.654Z",
-            "modified": "2023-11-17T19:49:55.654Z",
+            "modified": "2023-12-01T19:48:02.597Z",
             "headers": [],
             "params": [],
             "tests": []
@@ -416,7 +412,7 @@
             "method": "POST",
             "sortNum": 130000,
             "created": "2023-11-17T20:03:02.853Z",
-            "modified": "2023-11-24T22:23:25.205Z",
+            "modified": "2023-12-01T20:11:14.609Z",
             "headers": [
                 {
                     "name": "Content-Type",
@@ -426,7 +422,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"name\": \"Sebas\",\n  \"email\": \"sebas@gmail.com\",\n  \"password\": \"12345\",\n  \"role\": \"publisher\"\n}",
+                "raw": "{\n  \"name\": \"Sebas1\",\n  \"email\": \"sebas1@gmail.com\",\n  \"password\": \"12345\",\n  \"role\": \"publisher\"\n}",
                 "form": []
             },
             "tests": []
@@ -440,7 +436,7 @@
             "method": "POST",
             "sortNum": 140000,
             "created": "2023-11-17T20:03:28.309Z",
-            "modified": "2023-11-24T22:24:06.655Z",
+            "modified": "2023-12-01T20:25:04.336Z",
             "headers": [
                 {
                     "name": "Content-Type",
@@ -450,7 +446,7 @@
             "params": [],
             "body": {
                 "type": "json",
-                "raw": "{\n  \"email\": \"sebas@gmail.com\",\n  \"password\": \"12345\"\n}",
+                "raw": "{\n  \"email\": \"sebas1@gmail.com\",\n  \"password\": \"12345\"\n}",
                 "form": []
             },
             "tests": []

@@ -85,7 +85,7 @@ router.get('/:id', async (req, res)=>{
 });
 
 //Crear un bootcamp
-router.post('/', protect, async (req, res)=>{
+router.post('/', protect, authorize("publisher"), async (req, res)=>{
 
     // El nuevo bootcamp vendra a traves del body de la request
     
